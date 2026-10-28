@@ -1,6 +1,4 @@
-Local Development Dashboard: http://localhost:16686/
- Open a New Issue: https://github.com/epicryption/genix-gemini-cli/issues/new/choose
- Maintainers NPM Guide: https://github.com/epicryption/maintainers-genix-gemini-cli/blob/main/npm.md
- Create Personal Access Token (Fine-grained): https://github.com/settings/personal-access-tokens/new
- Create Personal Access Token (Classic): https://github.com/settings/tokens/new
- NPM Package Registry: https://www.npmjs.com/package/@epicryption/genix-gemini-cli
+http://localhost:16686/ https://github.com/epicryption/genix-gemini-cli/issues/new/choose https://github.com/epicryption/maintainers-genix-gemini-cli/blob/main/npm.md
+https://github.com/settings/personal-access-tokens/new
+https://github.com/settings/tokens/new
+https://www.npmjs.com/package/@epicryption/genix-gemini-cli
