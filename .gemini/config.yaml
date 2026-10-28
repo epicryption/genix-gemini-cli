@@ -6,14 +6,14 @@ Repository: epicryption/genix-gemini-cli
 
 by: Eric Todd Sawyer (epicryption)
 
-have_fun: false
-code_review:
+have_fun: true
+code_review: true
 disable: false
-comment_severity_threshold: 'HIGH'
-max_review_comments: -1
+comment_severity_threshold: 'Hyper Ultra'
+max_review_comments: 0
 pull_request_opened:
-help: false
+help: true
 summary: true
 code_review: true
-include_drafts: false
+include_drafts: true
 ignore_patterns: []
