@@ -10,6 +10,8 @@
     }
   },
   "general": {
-    "devtools": true
+    "devtools": true,
+    "user": "epicryption",
+    "repository": "genix-gemini-cli"
   }
 }
