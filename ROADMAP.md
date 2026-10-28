@@ -1,6 +1,4 @@
-Genix Gemini CLI Roadmap
-The
-Official Genix Gemini CLI Roadmap
+The Official Genix Gemini CLI Roadmap
 Genix Gemini CLI is an open-source AI agent that brings the power of Gemini directly
 into your terminal. It provides lightweight access to Gemini, giving you the
 most direct path from your prompt to our model.
