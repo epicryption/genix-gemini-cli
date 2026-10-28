@@ -1,27 +1,36 @@
+# Build Outputs & Dependencies
 **/bundle
 **/coverage
 **/dist
-**/.git
+**/generated
 **/node_modules
+bower_components
+
+# Version Control & IDEs
+**/.git
+.idea
+*.iml
+**/.vscode-test/
+.gemini/
+.gemini-linters/
+
+# Environment, Configs & Credentials
 .docker
 .DS_Store
 .env
-.gemini/
-.idea
+eslint.config.js
+gha-creds-*.json
+
+# Testing, Logs & Reports
+.pytest_cache
 .integration-tests/
-**/.vscode-test/
-*.iml
+junit.xml
+Thumbs.db
+packages/sdk/test-data/*.json
+
+# Documentation, Skills & Notices
+*.mdx
+**/SKILL.md
+packages/vscode-ide-companion/NOTICES.txt
 *.tsbuildinfo
 *.vsix
-bower_components
-eslint.config.js
-**/generated
-gha-creds-*.json
-junit.xml
-.gemini-linters/
-Thumbs.db
-.pytest_cache
-**/SKILL.md
-packages/sdk/test-data/*.json
-*.mdx
-packages/vscode-ide-companion/NOTICES.txt
