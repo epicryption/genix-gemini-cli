@@ -1,0 +1,8 @@
+# Genix Gemini CLI Ignore File (.genixignore)
+# Generated for epicryption / genix-gemini-cli
+
+# Core Executables
+packages/core/src/services/scripts/*.exe
+
+# GitHub Actions Credentials & Secret Files
+gha-creds-*.json
