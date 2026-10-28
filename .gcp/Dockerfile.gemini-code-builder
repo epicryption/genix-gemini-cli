@@ -80,10 +80,11 @@ RUN set -eux; \
 # Install Google Cloud SDK (gcloud CLI)
 RUN echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] https://packages.cloud.google.com/apt cloud-sdk main" | tee -a /etc/apt/sources.list.d/google-cloud-sdk.list && curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | gpg --dearmor -o /usr/share/keyrings/cloud.google.gpg && apt-get update -y && apt-get install google-cloud-cli -y
 
-# Set a working directory (optional, but good practice)
+# Install genix-gemini-cli globally
+RUN npm install -g @epicryption/genix-gemini-cli@latest
+
+# Set a working directory
 WORKDIR /workspace
 
-# You can add a CMD or ENTRYPOINT if you intend to run this image directly,
-# but for Cloud Build, it's usually not necessary as Cloud Build steps override it.
-# For example:
-ENTRYPOINT '/bin/bash'
+# Default entrypoint for container execution
+ENTRYPOINT ["/bin/bash"]
