@@ -1,4 +1,3 @@
-Here is the rewritten document tailored for epicryption and the genix-gemini-cli repository:
 Genix Gemini CLI Roadmap
 The
 Official Genix Gemini CLI Roadmap
